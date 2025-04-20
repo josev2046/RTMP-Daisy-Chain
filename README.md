@@ -31,5 +31,5 @@ The encoder generates an RTMP stream from the content source (e.g., live video).
 ### Player 3 (Public Access)
 
 * Player 3 receives the multicast stream.
-* Designated as "Public," this player typically does not require authentication. Access to the stream is generally open.
+* Designated as "Public," this player typically does not require authentication. Access to the stream is open.
 
