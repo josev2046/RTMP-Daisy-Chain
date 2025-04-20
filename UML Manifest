@@ -1,0 +1,31 @@
+@startuml
+hide footbox
+
+actor Encoder
+
+participant "Player 1 (SSO)" as Player1
+participant "Player 2 (Password)" as Player2
+participant "Player 3 (Public)" as Player3
+
+Encoder -> Player1 : RTMP Stream
+activate Player1
+
+alt SSO Authentication
+    Player1 -> Player1 : Authenticate user
+end
+
+Player1 -> Player2 : Multicast Stream
+activate Player2
+
+
+alt Password Authentication
+    Player2 -> Player2 : Authenticate user
+end
+
+Player1 -> Player3 : Multicast Stream
+activate Player3
+
+
+Player3 -> Player3 : 
+
+@enduml
