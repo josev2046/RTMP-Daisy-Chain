@@ -3,7 +3,7 @@
 ### User Story: 
 As a content provider, I want to be able to multicast a single stream to multiple users with different authentication methods (SSO, password, and public) 
 
-The process could be implemented as follows:
+This OVP-agnostic process could be implemented as follows:
 
 ![image](https://github.com/user-attachments/assets/dc377505-3a3a-4656-958b-2345560812bd)
 
