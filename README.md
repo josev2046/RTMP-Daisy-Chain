@@ -20,13 +20,11 @@ The encoder generates an RTMP stream from the content source (e.g., live video).
 
 * Player 1 receives the initial RTMP stream.
 * This player employs Single Sign-On (SSO) for user verification. Access typically requires authentication via a central identity provider.
-* The diagram above illustrates an alternative flow for SSO authentication, wherein Player 1 performs user authentication, likely involving redirection to the SSO provider for credential validation and authorisation confirmation.
 
 ### Player 2 (Password Authentication)
 
 * Player 2 receives the multicast stream.
 * This player utilises password-based authentication, requiring users to input credentials for access.
-* Similar to Player 1, the diagram shows an alternative flow for password authentication, where Player 2 authenticates users by verifying their credentials against its designated system.
 
 ### Player 3 (Public Access)
 
