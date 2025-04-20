@@ -1,4 +1,6 @@
 # RTMP Daisy Chaining
+[![DOI](https://zenodo.org/badge/969516469.svg)](https://doi.org/10.5281/zenodo.15251141)
+
 
 ### User Story: 
 As a content provider, I want to be able to multicast a single stream to multiple users with different authentication methods (SSO, password, and public) 
